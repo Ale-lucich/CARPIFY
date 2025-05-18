@@ -114,7 +114,7 @@ const obtenerIdVideo = (url) => {
             </ul>
 
             {videoID && (
-                <Modal videoId={videoID} onClose={() => setVideoID(null)} />
+                <Modal url={videoID} onCerrar={() => setVideoID(null)} />
             )}
         </div>
     );
